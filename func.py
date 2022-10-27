@@ -5,5 +5,4 @@ def report(data: Any, attributes: dict):
     print("**GOT EVENT**")
     print(attributes)
     # print(data)
-    attributes["type"] = "dev.processed-namespace"
-    return (attributes, data)
+    return "Thanks, all done"
