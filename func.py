@@ -5,4 +5,4 @@ def report(data: Any, attributes: dict):
     print("**GOT EVENT**")
     print(attributes)
     # print(data)
-    return
+    return (attributes, data)
